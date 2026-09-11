@@ -1,241 +1,242 @@
 ---
-layout: archive
-title: "CV"
-permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
+title: "Seolmin Yang"
+format:
+  pdf:
+    pdf-engine: xelatex
+    documentclass: article
+    fontsize: 11pt
+    geometry:
+      - top=0.72in
+      - bottom=0.72in
+      - left=0.88in
+      - right=0.88in
+    include-in-header: cv-style.tex
+    number-sections: false
+    keep-tex: false
+filters:
+  - cv.lua
 ---
 
-{% include base_path %}
+::: {.cv-header}
+# Seolmin YANG
 
-[Download CV (PDF)](/files/Seolmin_Yang_CV.pdf)
+[seolminyang@virginia.edu](mailto:seolminyang@virginia.edu)  
+[seolminyang.github.io](https://seolminyang.github.io)
+:::
 
-<style>
-.cv-entry { position: relative; padding-right: 9.5rem; margin: 0 0 0.9rem 0; }
-.cv-date { position: absolute; right: 0; top: 0; white-space: nowrap; }
-.cv-pub { margin: 0 0 0.65rem 0; padding-left: 0.8rem; text-indent: -0.8rem; }
-@media (max-width: 700px) {
-  .cv-entry { padding-right: 0; }
-  .cv-date { position: static; display: block; margin-bottom: 0.15rem; font-style: italic; }
-}
-</style>
+## Academic Position
 
-
-
-# Academic Position
-
-<div class="cv-entry"><span class="cv-date">2025.08 - present</span>
+::: {.cv-entry date="2025.08 - present"}
 **School of Data Science**  
 **University of Virginia**  
 Postdoctoral Research Associate (supervisor: Prof. Yong-Yeol Ahn)
-</div>
+:::
 
-<div class="cv-entry"><span class="cv-date">2025.02 - 2025.08</span>
+::: {.cv-entry date="2025.02 - 2025.08"}
 **Observatory on Social Media**  
 **Luddy School of Informatics, Computing, and Engineering**  
 **Indiana University Bloomington**  
 Postdoctoral Fellow (supervisor: Prof. Yong-Yeol Ahn)
-</div>
+:::
 
-<div class="cv-entry"><span class="cv-date">2024.02 - 2025.02</span>
+::: {.cv-entry date="2024.02 - 2025.02"}
 **Kellogg School of Management**  
 **Northwestern University**  
 Postdoctoral Fellow (supervisor: Prof. Hyejin Youn)
-</div>
+:::
 
-# Education
+## Education
 
-<div class="cv-entry"><span class="cv-date">2024</span>
+::: {.cv-entry date="2024"}
 **Ph.D.** Science and Technology Policy  
 KAIST, Daejeon, South Korea
 
 - (Dissertation) *Research Innovation and Collaboration in Government-Funded Science*
 - Advisor: So Young Kim
 - Ph.D. Dissertation Fellowship, National Research Foundation of Korea
-</div>
+:::
 
-<div class="cv-entry"><span class="cv-date">2019.12 - 2020.03</span>
+::: {.cv-entry date="2019.12 - 2020.03"}
 **Visiting Predoctoral Fellow**, Northwestern Institute on Complex Systems, Northwestern University  
 Supervisor: Prof. Hyejin Youn
-</div>
+:::
 
-<div class="cv-entry"><span class="cv-date">2016</span>
+::: {.cv-entry date="2016"}
 **M.S.** Science and Technology Policy  
 KAIST, Daejeon, South Korea
 
 - (Thesis) *Understanding the Process of Knowledge Creation in University Laboratories: An Analysis of Laboratory Dynamics at KAIST*
 - Advisor: So Young Kim
-</div>
+:::
 
-<div class="cv-entry"><span class="cv-date">2014</span>
+::: {.cv-entry date="2014"}
 **B.S.** Chemistry  
 KAIST, Daejeon, South Korea
 
 - Minor in Chemical & Biomolecular Engineering
-</div>
+:::
 
-# Areas of Interests
+## Areas of Interests
 
 Technology Evolution, Science of Science, Innovation Policy, R&D Management
 
-# Peer-Reviewed Publications
+## Peer-Reviewed Publications
 
-<div class="cv-pub">
+::: {.cv-pub}
 **Yang, S.** & Kim, S. Y. (2023). Knowledge-integrated research is more disruptive when supported by homogeneous funding sources: A case of US federally funded research in biomedical and life sciences. *Scientometrics, 128*, 3257-3282.
-</div>
+:::
 
-<div class="cv-pub">
+::: {.cv-pub}
 **Yang, S.** & Kim, S. Y. (2021). Managing individual knowledge creation with demographic faultlines: A case of university laboratories. *Asian Journal of Technology Innovation, 29*(3), 349-368.
-</div>
+:::
 
-<div class="cv-pub">
+::: {.cv-pub}
 Lee, S., **Yang, S.**, & Nah, K. (2020). Discovering the topology of design process: A network analysis of author keywords in Design Studies. *Archives of Design Research, 33*(1), 191-203.
-</div>
+:::
 
-# Works in Progress
+## Works in Progress
 
-<div class="cv-pub">
+::: {.cv-pub}
 **Yang, S.**, & Youn, H. (2023). Geometrics of the adjacent possible: Harvesting values at the curvature. *arXiv preprint arXiv:2311.16360*.
-</div>
+:::
 
-<div class="cv-pub">
+::: {.cv-pub}
 **Yang, S.**, Jeong, D., & Youn, H. Evolution of technology landscape from micro- to macro-structures.
-</div>
+:::
 
-<div class="cv-pub">
+::: {.cv-pub}
 **Yang, S.**, Youn, H., & Jung, H. Boundary Reclassification.
-</div>
+:::
 
-<div class="cv-pub">
+::: {.cv-pub}
 Jeong, D., **Yang, S.**, Evans, J., & Youn, H. Exploring consolidation pathways in knowledge assemblies.
-</div>
+:::
 
-<div class="cv-pub">
+::: {.cv-pub}
 Jeong, D., **Yang, S.**, Jang, S., & Shin, S. R. Links from papers to patents are becoming less disruptive than the reverse.
-</div>
+:::
 
-# Awards & Fellowships
+## Awards & Fellowships
 
-<div class="cv-entry"><span class="cv-date">2022.07</span>
+::: {.cv-entry date="2022.07"}
 Best Paper Award, Summer 2022 Korea Society Innovation Management & Economics Academic Conference  
 *Title: Reducing the risk of exploration: Innovation relying on government-funded research*
-</div>
+:::
 
-<div class="cv-entry"><span class="cv-date">2021.06 - 2022.05</span>
+::: {.cv-entry date="2021.06 - 2022.05"}
 Ph.D. Dissertation Fellowship, National Research Foundation of Korea  
 *Title: Making 1+1 more than 2: A scientometric analysis of the efficacy of government funding for interdisciplinary research*
-</div>
+:::
 
-<div class="cv-entry"><span class="cv-date">2017</span>
+::: {.cv-entry date="2017"}
 Emerging Scholar Award, 17th International Conference on Knowledge, Culture, and Change in Organizations, Darwin, Australia
-</div>
+:::
 
-<div class="cv-entry"><span class="cv-date">2017</span>
+::: {.cv-entry date="2017"}
 STEPI Fellowship, Science and Technology Policy Institute, South Korea  
 *Title: Understanding the organization of team science: A case of the institute for basic science in South Korea*
-</div>
+:::
 
-# Peer-Reviewed Conference Presentations
+## Peer-Reviewed Conference Presentations
 
-<div class="cv-pub">
+::: {.cv-pub}
 **Yang, S.**, Jeon, D., Ahn, Y.-Y., & Youn, H. (2026, June). *Idea Timing: Structure as the Hidden Variable in Innovation.* Contributed Talk, NetSci 2026, Boston, MA.
-</div>
+:::
 
-<div class="cv-pub">
+::: {.cv-pub}
 **Yang, S.** (2025, November). *Mapping Innovation: Geometrics of the Adjacent Possible.* Poster, Datapalooza 2025, School of Data Science, University of Virginia, Charlottesville, VA.
-</div>
+:::
 
-<div class="cv-pub">
+::: {.cv-pub}
 **Yang, S.** (2023, June). *Skewed Funding for Basic Sciences: Unpacking the Basicness of NIH Grants.* Poster, International Conference on the Science of Science and Innovation (ICSSI), Evanston, IL.
-</div>
+:::
 
-<div class="cv-pub">
+::: {.cv-pub}
 Kwon, H. Y., **Yang, S.**, & Youn, H. (2022, July). *Occupational Mobility and Wages from a Perspective of Worker Skills.* Poster, IC2S2, Chicago, IL.
-</div>
+:::
 
-<div class="cv-pub">
+::: {.cv-pub}
 **Yang, S.**, Youn, H., & Kim, S. Y. (2022, July). *Reducing the Risk of Exploration: Innovation Relying on Government-Funded Research.* Paper, Summer 2022 Korea Society Innovation Management & Economics Academic Conference, Jeju, South Korea.
-</div>
+:::
 
-<div class="cv-pub">
+::: {.cv-pub}
 **Yang, S.**, & Kim, S. Y. (2019, October). *Strategizing Scientific Awards: The Impacts of Early-Career Awards on the Research Network of Recipient Scientists.* Poster, 8th Biennial Atlanta Conference on Science and Innovation Policy, Atlanta, GA.
-</div>
+:::
 
-<div class="cv-pub">
+::: {.cv-pub}
 **Yang, S.**, & Kim, S. Y. (2017, October). *Re-combining Social Category Diversity and Tenure Diversity: A Cross-Level Analysis of Individual Explicit Knowledge.* Paper, 7th Biennial Atlanta Conference on Science and Innovation Policy, Atlanta, GA.
-</div>
+:::
 
-<div class="cv-pub">
+::: {.cv-pub}
 **Yang, S.** (2017, September). *Affiliation Diversity and Team Performance: Impact of the External Social Network Ties of Leading Scientists.* Paper, 15th International Triple Helix Conference, Daegu, South Korea.
-</div>
+:::
 
-<div class="cv-pub">
+::: {.cv-pub}
 **Yang, S.**, & Kim, S. Y. (2017, April). *Re-combining Social Category Diversity and Tenure Diversity: A Cross-Level Analysis of Individual Explicit Knowledge Creation.* Paper, 17th International Conference on Knowledge, Culture, and Change in Organizations, Darwin, Australia.
-</div>
+:::
 
-<div class="cv-pub">
+::: {.cv-pub}
 **Yang, S.**, & Kim, S. Y. (2016, September). *Understanding the Process of Knowledge Creation in University Laboratories: An Analysis of Laboratory Dynamics at KAIST.* Paper, XIV International Triple Helix Conference, Heidelberg, Germany.
-</div>
+:::
 
-# Invited Presentations & Talks
+## Invited Presentations & Talks
 
-<div class="cv-pub">
+::: {.cv-pub}
 **Yang, S.** (2017, November). *Demographic faultlines and psychological safety: A cross-level analysis of individuals' reliance on explicit and tacit knowledge.* Talk given at the Seminar on Innovation for Global Development (led by Prof. Calestous Juma), Harvard Kennedy School, Cambridge, MA.
-</div>
+:::
 
-<div class="cv-pub">
+::: {.cv-pub}
 **Yang, S.** (2017, June). *Re-combining social category diversity and tenure diversity: A cross-level analysis of individual explicit knowledge creation.* Talk given at the Joint S&T Policy Workshop, School of Public Policy & Management, Tsinghua University, Beijing, China.
-</div>
+:::
 
-# Experience
+## Experience
 
-<div class="cv-entry"><span class="cv-date">Spring 2020</span>
+::: {.cv-entry date="Spring 2020"}
 **Teaching Assistant**  
 *Winning with Networks (MORS-457-0)*, Northwestern University (Instructor: Prof. Hyejin Youn)  
 Role: assisted students in handling and visualizing network data.
-</div>
+:::
 
-<div class="cv-entry"><span class="cv-date">2019</span>
+::: {.cv-entry date="2019"}
 **Research Assistant**  
 *The Trend of Artificial Intelligence in South Korea*, KAIST-Fourth Industrial Revolution Center (FIRIC), Daejeon, South Korea (PI: Prof. So Young Kim)  
 Role: analyzed bibliometric data about AI and conducted network analysis.
-</div>
+:::
 
-<div class="cv-entry"><span class="cv-date">2018</span>
+::: {.cv-entry date="2018"}
 **Research Assistant**  
 *A Proposal for Improvement of the Current Science Awards System with Its Comprehensive Assessment in South Korea*, Korea National Research Foundation, Daejeon, South Korea (PI: Prof. So Young Kim)  
 Role: analyzed survey data to assess factors affecting scientists' perceptions of science awards.
-</div>
+:::
 
-<div class="cv-entry"><span class="cv-date">2018</span>
+::: {.cv-entry date="2018"}
 **Head Research Assistant**  
 *A Study of Future Technology Roadmaps based on the Time Series Analysis of Technologies*, Korea National Research Foundation, Daejeon, South Korea (PI: Prof. So Young Kim)  
 Role: conducted and interpreted interviews about organizations' processes for reviewing, selecting, and publishing emerging technologies; analyzed trends of emerging technologies from public institutions in South Korea over a decade.
-</div>
+:::
 
-<div class="cv-entry"><span class="cv-date">2017</span>
+::: {.cv-entry date="2017"}
 **Head Research Assistant**  
 *A Policy for Collaborative Lab Design*, KAIST (PI: Prof. Hongjin Kong)  
 Role: analyzed university laboratory systems in Japan, Germany, and France; interpreted interviews with lab heads about research collaboration.
-</div>
+:::
 
-<div class="cv-entry"><span class="cv-date">2016</span>
+::: {.cv-entry date="2016"}
 **Head Research Assistant**  
 *Evidence-based Appraisal of the Program for Women Returners to Research & Development*, Center for Women In Science, Engineering and Technology, Seoul, South Korea (PI: Prof. So Young Kim)  
 Role: conducted and analyzed focus-group interviews with female scientists and engineers returning to the profession; analyzed survey data to assess factors affecting successful return.
-</div>
+:::
 
-<div class="cv-entry"><span class="cv-date">2016</span>
+::: {.cv-entry date="2016"}
 **Research Assistant**  
 *The Impact of IBS on Regional Development*, Institute for Basic Science, Daejeon, South Korea (PI: Prof. Yoonjung Lee)  
 Role: analyzed survey data to measure the market values of non-market goods or services.
-</div>
+:::
 
-<div class="cv-entry"><span class="cv-date">2013 - 2014</span>
+::: {.cv-entry date="2013 - 2014"}
 **Researcher**, Center for Strategic Foresight, Science and Technology Policy Institute, Seoul, South Korea.
-</div>
+:::
 
-# Statistical Skills
+## Statistical Skills
 
 R, Python, Gephi, UCINET, SPSS
